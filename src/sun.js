@@ -251,16 +251,7 @@ function calcSunriseSet(rise, angle, JD, date, latitude, longitude)
       return formatDate(date, newTimeUTC);
 
     } else { // no sunrise/set found
-      var doy = calcDoyFromJD(JD);
-      var jdy;
-      if (((latitude > 66.4) && (doy > 79) && (doy < 267)) ||
-        ((latitude < -66.4) && ((doy < 83) || (doy > 263)))) { //previous sunrise/next sunset
-        jdy = calcJDofNextPrevRiseSet(!rise, rise, angle, JD, latitude, longitude);
-        return dayString(jdy);
-      } else { //previous sunset/next sunrise
-        jdy = calcJDofNextPrevRiseSet(rise, rise, angle, JD, latitude, longitude);
-        return dayString(jdy);
-      }
+      return new Date(NaN);
     }
   }
 

@@ -1,3 +1,5 @@
+A fork of https://github.com/jonhester/solar-calc to return `NaN` Date objects when there is no sunset at extreme latitudes
+
 # solar-calc [![npm](https://img.shields.io/npm/v/solar-calc.svg)](https://www.npmjs.com/package/solar-calc) [![Build Status](https://travis-ci.org/jonhester/solar-calc.svg)](https://travis-ci.org/jonhester/solar-calc/builds)
 A sunrise and sunset calculator for npm based on the NOAA Solar Calculator.
 

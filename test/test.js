@@ -96,51 +96,51 @@ describe('suncalc', function() {
     });
 
     it('get golden hour start', function() {
-      assert.equal(1439856000000, solarCalc.goldenHourStart.getTime());
+      assert.ok(isNaN(solarCalc.goldenHourStart.getTime()));
     });
 
      it('get golden hour end', function() {
-      assert.equal(1430006400000, solarCalc.goldenHourEnd.getTime());
+      assert.ok(isNaN(solarCalc.goldenHourEnd.getTime()));
     });
 
     it('get night end', function() {
-      assert.equal(1424476800000, solarCalc.nightEnd.getTime());
+      assert.ok(isNaN(solarCalc.nightEnd.getTime()));
     });
 
     it('get nautical dawn', function() {
-      assert.equal(1425859200000, solarCalc.nauticalDawn.getTime());
+      assert.ok(isNaN(solarCalc.nauticalDawn.getTime()));
     });
 
     it('get dawn', function() {
-      assert.equal(1427155200000, solarCalc.dawn.getTime());
+      assert.ok(isNaN(solarCalc.dawn.getTime()));
     });
 
     it('get sunrise', function() {
-      assert.equal(1428364800000, solarCalc.sunrise.getTime());
+      assert.ok(isNaN(solarCalc.sunrise.getTime()));
     });
 
     it('get sunriseEnd', function() {
-      assert.equal(1428451200000, solarCalc.sunriseEnd.getTime());
+      assert.ok(isNaN(solarCalc.sunriseEnd.getTime()));
     });
 
     it('get sunsetStart', function() {
-      assert.equal(1441411200000, solarCalc.sunsetStart.getTime());
+      assert.ok(isNaN(solarCalc.sunsetStart.getTime()));
     });
 
     it('get sunset', function() {
-      assert.equal(1441497600000, solarCalc.sunset.getTime());
+      assert.ok(isNaN(solarCalc.sunset.getTime()));
     });
 
     it('get dusk', function() {
-      assert.equal(1442707200000, solarCalc.dusk.getTime());
+      assert.ok(isNaN(solarCalc.dusk.getTime()));
     });
 
     it('get nautical dusk', function() {
-      assert.equal(1444003200000, solarCalc.nauticalDusk.getTime());
+      assert.ok(isNaN(solarCalc.nauticalDusk.getTime()));
     });
 
     it('get night start', function() {
-      assert.equal(1445385600000, solarCalc.nightStart.getTime());
+      assert.ok(isNaN(solarCalc.nightStart.getTime()));
     });
 
     it('should get moon illuminosity', function() {
