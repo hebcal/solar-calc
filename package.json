@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/solar-calc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A sunrise/sunset/moonrise/moonset calculator - fork",
   "main": "index.js",
   "types": "index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonhester/solar-calc.git"
+    "url": "https://github.com/mjradwin/solar-calc.git"
   },
   "keywords": [
     "sunrise",
@@ -26,9 +26,9 @@
   "author": "Jon Hester",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jonhester/solar-calc/issues"
+    "url": "https://github.com/mjradwin/solar-calc/issues"
   },
-  "homepage": "https://github.com/jonhester/solar-calc",
+  "homepage": "https://github.com/mjradwin/solar-calc",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
