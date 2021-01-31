@@ -1,5 +1,3 @@
-'use strict';
-
 var Sun = require('./sun.js');
 var Moon = require('./moon.js');
 

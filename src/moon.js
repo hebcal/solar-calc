@@ -1,5 +1,3 @@
-'use strict';
-
 class Moon {
   constructor(date, latitude, longitude) {
     this.date = date;

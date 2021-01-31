@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/solar-calc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A sunrise/sunset/moonrise/moonset calculator - fork",
   "main": "index.js",
   "types": "index.d.ts",
@@ -30,12 +30,12 @@
   },
   "homepage": "https://github.com/mjradwin/solar-calc",
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.7.0",
-    "mocha": "^8.1.1"
+    "eslint": "^7.19.0",
+    "mocha": "^8.2.1"
   },
   "dependencies": {}
 }
