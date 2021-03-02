@@ -179,6 +179,10 @@ function getJD(date) {
   var year = date.getFullYear();
   var month = date.getMonth() + 1;
   var day = date.getDate();
+  if (month < 3) {
+    year--;
+    month += 12;
+  }
 
   var A = Math.floor(year / 100);
   var B = 2 - A + Math.floor(A / 4);
