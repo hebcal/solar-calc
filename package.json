@@ -30,12 +30,12 @@
   },
   "homepage": "https://github.com/mjradwin/solar-calc",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.19.0",
-    "mocha": "^8.2.1"
+    "eslint": "^7.21.0",
+    "mocha": "^8.3.0"
   },
   "dependencies": {}
 }
