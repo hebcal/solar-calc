@@ -1,12 +1,10 @@
 import Sun from './sun';
-import Moon from './moon';
 
 export default class SolarCalc {
   date: Date;
   latitude: number;
   longitude: number;
   sun: Sun;
-  moon: Moon;
   readonly solarNoon: Date;
   readonly sunrise: Date | "error";
   readonly sunset: Date | "error";

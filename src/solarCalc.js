@@ -1,5 +1,4 @@
-var Sun = require('./sun.js');
-var Moon = require('./moon.js');
+import {Sun} from './sun.js';
 
 const degreesBelowHorizon = {
   sunrise: 0.833,
@@ -10,14 +9,13 @@ const degreesBelowHorizon = {
   goldenHour: -6
 };
 
-class SolarCalc {
+export class SolarCalc {
   constructor(date, latitude, longitude) {
     this.date = date;
     this.lat = latitude;
     this.longitude = longitude;
 
     this.sun = new Sun(date, latitude, longitude);
-    this.moon = new Moon(date, latitude, longitude);
   }
 
   get solarNoon() {
@@ -87,14 +85,4 @@ class SolarCalc {
   get goldenHourEnd() {
     return this.sun.timeAtAngle(degreesBelowHorizon.goldenHour, true);
   }
-
-  get lunarDistance() {
-    return this.moon.distance;
-  }
-
-  get lunarIlluminosity() {
-    return this.moon.illuminosity;
-  }
 }
-
-module.exports = SolarCalc;

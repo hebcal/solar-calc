@@ -1,12 +1,10 @@
-'use strict';
-
-var assert = require("assert"); // node.js core module
-var SolarCalc = require('../'); // our module
+const assert = require('assert'); // node.js core module
+const {SolarCalc}  = require('../lib/solarCalc'); // our module
 
 describe('suncalc', function() {
   
   describe('2015-03-08 in North Carolina', function() {
-    var solarCalc;
+    let solarCalc;
 
     beforeEach(function() {
       solarCalc = new SolarCalc(
@@ -67,19 +65,10 @@ describe('suncalc', function() {
     it('get night start', function() {
       assert.equal(1425861641000, solarCalc.nightStart.getTime());
     });
-
-    it('should get moon illuminosity', function() {
-      assert.equal(83, Math.round(solarCalc.lunarIlluminosity * 100));
-    });
-
-    it('should get moon distance', function() {
-      assert.equal(384758, solarCalc.lunarDistance);
-    });
-
   });
 
   describe('2015-06-23 in extreme latitude', function() {
-    var solarCalc;
+    let solarCalc;
 
     beforeEach(function() {
       solarCalc = new SolarCalc(
@@ -141,14 +130,6 @@ describe('suncalc', function() {
 
     it('get night start', function() {
       assert.ok(isNaN(solarCalc.nightStart.getTime()));
-    });
-
-    it('should get moon illuminosity', function() {
-      assert.equal(22, Math.round(solarCalc.lunarIlluminosity * 100));
-    });
-
-    it('should get moon distance', function() {
-      assert.equal(378178, solarCalc.lunarDistance);
     });
   });
 
