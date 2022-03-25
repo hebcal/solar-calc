@@ -4,6 +4,11 @@
   "description": "A sunrise/sunset/moonrise/moonset calculator - fork",
   "main": "lib/solarCalc.js",
   "module": "src/solarCalc.js",
+  "files": [
+    "lib",
+    "src",
+    "types"
+  ],
   "types": "types/solarCalc.d.ts",
   "scripts": {
     "build": "babel src --out-dir lib",
