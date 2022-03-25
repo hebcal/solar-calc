@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/solar-calc",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A sunrise/sunset/moonrise/moonset calculator - fork",
   "main": "lib/solarCalc.js",
   "module": "src/solarCalc.js",
