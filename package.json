@@ -36,11 +36,11 @@
   },
   "homepage": "https://github.com/hebcal/solar-calc",
   "devDependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.8",
-    "@babel/eslint-parser": "^7.17.0",
-    "@babel/preset-env": "^7.16.11",
-    "eslint": "^8.11.0",
-    "mocha": "^9.2.2"
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "eslint": "^8.20.0",
+    "mocha": "^10.0.0"
   }
 }
